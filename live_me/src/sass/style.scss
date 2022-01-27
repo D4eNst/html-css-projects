@@ -1,0 +1,35 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+* {
+    font-family: 'Museo', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
+.contacts {
+    padding-bottom: 100px;
+}
+.scroll-to.active{color: #e95095;}
+
+.reqwe {  
+    display: block;
+}
+
+@import 'blocks/title';
+@import 'blocks/button';
+
+@import 'blocks/header';
+@import 'blocks/adventeger';
+@import 'blocks/subadventeger';
+@import 'blocks/partners';
+@import 'blocks/middle';
+@import 'blocks/whyliveme';
+@import 'blocks/questionAnswer';
+@import 'blocks/apps';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+@import 'blocks/media';

@@ -1,0 +1,113 @@
+.carusel {
+    min-height: 750px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: -322px;
+    overflow: hidden;
+    &__iner {
+        width: 900px;
+        height: 700px;
+        position: relative;
+        .slick-center {
+            opacity: 1;
+            .carusel__otziv {
+                transform: scale(1);
+                opacity: 1;
+            }
+            img {
+                
+                display: block;
+                border-radius: 100%;
+                box-shadow: 14px 38px 40px rgba(92, 95, 101, 0.28);
+                width: 130px;
+                height: 130px; 
+                top: 140px;
+            }
+        }
+        &-item {
+            transition: 0.8s all;
+            width: 90px;
+            height: 700px;
+            position: relative;
+            opacity: .4;
+            img {
+                transition: 0.8s all;
+                position: absolute;
+                top: 150px;
+                left: 50%;
+                transform: translate(-50%, -0%);
+                display: block;
+                width: 90px;
+                height: 90px;
+                border-radius: 100%;
+                box-shadow: 11px 28px 30px rgba(92, 95, 101, 0.28);
+            }
+            .carusel__otziv {
+                position: absolute;
+                bottom: 50px;
+                left: -144px;
+                width: 554px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                transform: scale(1);
+            }
+        }
+    }
+    .slick-prev {
+        position: absolute;
+        top: 189px;
+        left: -80px;
+        &::before {
+            display: none;
+        }
+    }
+    .slick-next {
+        position: absolute;
+        top: 189px;
+        right: -80px;
+        &::before {
+            display: none;
+        }
+    }
+    &__title {
+        margin-top: -65px;
+        color: #26272d;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 32px;
+    }
+    &__descr {
+        color: #8c8f94;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 48px;
+        width: 554px;
+        text-align: center;
+    }
+    &__stars {
+        margin-top: 30px;
+        width: 152px;
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            width: 24px;
+            height: 23px;
+            background: url(../icons/Star_Icon.png) center (center/cover) no-repeat transparent;
+        }
+    }
+    &__subtitle {
+        margin-top: 68px;
+        color: #26272d;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+    
+}

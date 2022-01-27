@@ -1,0 +1,44 @@
+.protected {
+    min-height: 900px;
+    position: relative;
+    &__img {
+        background: url(../img/adventeger_phone.png) center (center/cover) no-repeat transparent;
+        margin-top: 77px;
+        margin-left: -147px;
+        margin-right: 0px;
+        width: 1009px;
+        height: 876px;
+        display: inline-block;
+    }
+    &__text {
+        position: absolute;
+        width: 470px;
+        height: 443px;
+        right: 218px;
+        top: 224px;
+        &-title {
+            height: 94px;
+            color: #26272d;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 52px;
+        }
+        &-descr {
+            height: 159px;
+            color: #8c8f94;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: -0.2px;
+            margin-top: 73px;
+        }
+        &-buttons {
+            margin-top: 75px;
+            margin-left: 2px;
+            width: 364px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.everywhere {
+    position: relative;
+    min-height: 840px;
+    overflow: hidden;
+    &__wrapper {
+        width: 475px;
+        margin-top: 156px;
+        margin-left: 214px;
+        &-title {
+            color: #26272d;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 52px;
+        }
+        &-descr {
+            color: #8c8f94;
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-top: 64px;
+        }
+        &-partners {
+            width: 295px;
+            margin-top: 68px;
+            &-title {
+                color: #26272d;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 12px;
+                text-transform: uppercase;
+            }
+            &-item {
+                margin-top: 21px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    &__map {
+        display: block;
+        position: absolute;
+        top: 148px;
+        right: -153px;
+    }
+}

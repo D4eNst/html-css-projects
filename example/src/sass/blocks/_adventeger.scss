@@ -1,0 +1,49 @@
+.adventeger {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__wraper {
+        width: 1100px;
+        height: 311px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 122px;
+        &-item {
+            width: 498px;
+            &-img {
+                width: 42px;
+                height: 51px;
+                background: url(../icons/lock.png) center (center/cover) no-repeat #fff;
+                &-2 {
+                    width: 46px;
+                    background: url(../icons/clock.png) center (center/cover) no-repeat #fff;
+                }
+            }
+            &-title {
+                margin-top: 45px;
+                color: #26272d;
+                font-size: 26px;
+                font-weight: 300;
+                line-height: 26px;
+            }
+            &-descr {
+                margin-top: 44px;
+                color: #8c8f94;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: -0.13px;
+            }
+        }
+    }
+    &__line {
+        display: block;
+        width: 1170px;
+        height: 1px;
+        border-radius: 1px;
+        background-color: #26272d;
+        margin-top: 126px;
+        opacity: 0.05;
+    }
+}

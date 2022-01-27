@@ -1,0 +1,149 @@
+header {
+    position: relative;
+    min-height: 1000px;
+    background: url(../img/header_bg.jpg) center (center/cover) no-repeat #000;
+    .header__menu {
+        padding-top: 44px;
+        width: 1167px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 86px;
+        &-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 273px;
+            overflow: hidden;
+            &-ul {
+                width: 223px;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                transition: 0.7s all;
+                overflow: hidden;
+                transform: translateX(-13%);              
+                &_active {
+                    transform: translateX(0%);
+                }
+                &-li {
+                    a {
+                        color: #26272d;
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 400;
+                        transition: 0.4s all;
+                        padding: 4px 0px;
+                        &:hover {
+                            text-decoration: none;
+                            color: rgb(73, 129, 0);
+                        }
+                    }
+                    transition: 0.7s all;
+                    list-style-type: none;
+                    transform: translateX(-470%);
+                    &_active {
+                        transform: translateX(0%);
+                    }
+                }
+            }
+        }
+        &-logo {
+            width: 606px;
+            display: flex;
+            justify-content: center;
+            img {
+                display: block;
+                padding: 12px;
+            }
+        }
+        &-contacts {
+            width: 288px;
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li {
+                    list-style-type: none;
+                    a {
+                        color: #26272d;
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 400;
+                        transition: 0.4s all;
+                        padding: 4px 0px;
+                        &:hover {
+                            text-decoration: none;
+                            color: rgb(73, 129, 0);
+                        }
+                        .button {
+                            img {
+                                display: block;
+                                width: 17px;
+                                height: 20px;
+                                margin: 0 14px 5px 0;
+                            }
+                        }
+                    }
+                    .help {
+                        color: #1b1c1e;
+                        opacity: 0.4;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .header__title {
+        color: #26272d;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 62px;
+        line-height: 62px;
+        letter-spacing: -1.2px;
+        display: block;
+        width: 738px;
+        height: 62px;
+        margin: 116px auto 0 auto;
+    }
+    .header__title-descr {
+        color: #8c8f94;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        width: 780px;
+        margin: 0 auto;
+        padding-top: 40px;
+        letter-spacing: -0.141px;
+    }
+    .header__video {
+        display: flex;
+        justify-content: center;
+        margin-top: 62px;
+        a {
+            .button {
+                &_video {
+                    svg {
+                        margin-right: 12px;
+                    }
+                }
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .header__iphone {
+        width: 369px;
+        height: 455px;
+        position: absolute; 
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

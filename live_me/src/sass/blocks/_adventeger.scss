@@ -1,0 +1,33 @@
+.adventeger {
+    position: relative;
+    min-height: 900px;
+    margin-bottom: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-descr {
+            width: 50%;
+            &-text {
+                width: 90%;
+                margin: 0 auto;
+                font-size: 17px;
+                span {
+                    font-weight: bold;
+                }
+                a {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        &-img {
+            width: 50%;
+            img {
+                max-width: 444px;
+                margin: 0 auto 30px 10%;
+                border-radius: 5px;
+            }
+        }
+    }
+}

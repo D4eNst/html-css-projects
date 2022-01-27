@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"> -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div id="up" class="promo fadeIn wow" data-wow-delay="0.2s">
+        <div class="container">
+            <a href="#" class="header__logo hiden_media">
+                <img src="icon/logo.png" alt="здесь должен быть логотип">
+            </a>
+            <header class="header">
+                <a href="#" class="header__logo n-hiden_media">
+                    <img src="icon/logo.png" alt="здесь должен быть логотип">
+                </a>
+                <div class="header__official">
+                    Официальный представитель
+                    <span>tratata, tatat, trata</span>
+                </div>
+                <div class="header__contacts">
+                    <a href="tel:+77471489871" class="header__phone">+7 (747) 148 98-71</a>
+                    <button data-modal="consultation" class="button">заказать</button>
+                </div>
+            </header>
+
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор устройств</h1>
+                <h2 class="promo__subheader">с учётом Вашего желания и бюджета</h2>
+
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="icon/timer.png" alt="timer">
+                        Быстрое время подбора
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icon/hand-cart.png" alt="hand-cart">
+                        качественная
+                        доставка
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icon/mess.png" alt="messenger">
+                        Ответим
+                        на все вопросы
+                    </div>
+                </div>
+                <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                <div class="promo__link">
+                    или
+                    <a href="#cat">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="adventeger">
+        <div class="container">
+            <h2 class="title fadeIn wow" data-wow-delay="0.5s">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="adventeger__wrapper">
+                <div class="adventeger__item fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
+                    <img src="icon/speed.svg" alt="cup" class="adventeger__icon">
+                    <div class="adventeger__subtitle">Скорость</div>
+                    <div class="adventeger__descr">
+                        Быстрая и удобная доставка <br>
+                        в течении 14 дней 
+
+                    </div>
+                </div>
+                <div class="adventeger__item fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.2s">
+                    <img src="icon/chek.svg" alt="тут что-то другое" class="adventeger__icon adventeger__icon_animated">
+                    <div class="adventeger__subtitle">Качество</div>
+                    <div class="adventeger__descr">
+                        Мы продаём только 
+                        качественный товар а так же предостовляем горантию 
+                        в течнии 90 дней после получения товара                       
+                    </div>
+                </div>
+                <div class="adventeger__item fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.4s">
+                    <img src="icon/money.svg" alt="тут что-то другое" class="adventeger__icon">
+                    <div class="adventeger__subtitle">Доступность</div>
+                    <div class="adventeger__descr">
+                        Наш магазин позволяет преобрести 
+                        оригинальную продукцию APPLE
+                        по самым доступным ценам                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="consultation">
+        <div class="container">
+            <h2 class="title title_consultation fadeIn wow" data-wow-delay="0.4s">Получите бесплатную консультацию<br class="n-hiden_media"> по подбору устройства </h2>
+            <div class="consultation__descr">
+                    Просто заполните форму заявки<br> 
+                и мы напишем вам в течении 2-х часов
+            </div>
+
+            <form id="first_form" class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя " type="text" class="fadeInUp wow" data-wow-delay="0.2s">
+                <input name="phone" required placeholder="Ваш телефон " class="fadeInUp wow" data-wow-delay="0.2s">
+                <input name="email" required placeholder="Ваш E-mail " type="email" class="fadeInUp wow" data-wow-delay="0.2s">
+
+                <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
+                <button class="button button_form fadeInUp wow" data-wow-delay="0.2s">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="carusel fadeIn wow" data-wow-duration="2s" data-wow-delay="0.2s">
+        <div class="container">
+            <div class="carusel__iner">
+                <div>
+                    <img src="img/carusel/1.png" alt="carusel_1">
+                </div>
+                <div>
+                    <img src="img/carusel/2.png" alt="carusel_2">
+                </div>
+                <div>
+                    <img src="img/carusel/3.png" alt="carusel_3">
+                </div>
+            </div>
+            <!-- <button type="button" class="prev"><img src="icon/left_a.png"></button>
+            <button type="button" class="next"><img src="icon/right_a.png"></button> -->
+        </div>
+    </div>
+    
+    
+    <section id="cat" class="catalog">
+        <div class="container">
+            <h2 class="title title_catalog fadeIn wow" data-wow-delay="0.1s">Каталог</h2>
+
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active"><div>Популярные</div></li>
+                <li class="catalog__tab"><div>Скидка</div></li>
+                <li class="catalog__tab"><div>Все</div></li>
+            </ul>
+
+            <div class="catalog__content catalog__content_active">
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/11.png" alt="11" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 11</div>
+                            <div class="catalog-item__descr">
+                                128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 194 г</li>
+                            <li>Аккумулятор 3110 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 12 Мп</li>
+                            <li>Диагональ экрана – 6.1 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $799</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.2s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/xs_max.jpg" alt="Xs max" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xs MAX</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 208 г</li>
+                            <li>Аккумулятор 3174 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 6.5 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$684</div>
+                            <div class="catalog-item__new-price">от $670</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.3s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/Xr.jpg" alt="Xr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xr</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 194 г</li>
+                            <li>Аккумулятор 1942 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 6.1 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $560</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/7.jpg" alt="7" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 7</div>
+                            <div class="catalog-item__descr">
+                                32 / 64 / 128 / 256гб <br>
+                                2гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 138 г</li>
+                            <li>Аккумулятор 1960 мАч</li>
+                            <li>Основная камера – 12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 4.7 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $225</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.2s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/6s.jpg" alt="6s" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 6s</div>
+                            <div class="catalog-item__descr">
+                                32 / 64 / 128гб <br>
+                                2гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 143 г</li>
+                            <li>Аккумулятор 1715 мАч</li>
+                            <li>Основная камера – 12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 4.7 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $185</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="catalog__content">
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/8plus.jpg" alt="8 plus" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 8 plus</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 188 г</li>
+                            <li>Аккумулятор 1691 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.5 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$458</div>
+                            <div class="catalog-item__new-price">от $444</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.2s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/X.jpg" alt="X" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone X</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 174 г</li>
+                            <li>Аккумулятор 2691 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.8 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$549</div>
+                            <div class="catalog-item__new-price">от $540</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.3s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/Xs.jpg" alt="Xs" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xs</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 177 г</li>
+                            <li>Аккумулятор 2658 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.8 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$613</div>
+                            <div class="catalog-item__new-price">от $599</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/xs_max.jpg" alt="Xs max" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xs MAX</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 208 г</li>
+                            <li>Аккумулятор 3174 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 6.5 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$684</div>
+                            <div class="catalog-item__new-price">от $670</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="catalog__content">
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/6s.jpg" alt="6s" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 6s</div>
+                            <div class="catalog-item__descr">
+                                32 / 64 / 128гб <br>
+                                2гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 143 г</li>
+                            <li>Аккумулятор 1715 мАч</li>
+                            <li>Основная камера – 12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 4.7 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $185</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.2s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/7.jpg" alt="7" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 7</div>
+                            <div class="catalog-item__descr">
+                                32 / 64 / 128 / 256гб <br>
+                                2гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 138 г</li>
+                            <li>Аккумулятор 1960 мАч</li>
+                            <li>Основная камера – 12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 4.7 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $225</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.3s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/7plus.jpg" alt="7 plus" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 7 plus</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 188 г</li>
+                            <li>Аккумулятор 1900 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.5 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $370</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/8.jpg" alt="8" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 8</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256гб <br>
+                                2гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 148 г</li>
+                            <li>Аккумулятор 1821 мАч</li>
+                            <li>Основная камера – 12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 4.7 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $434</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.2s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/8plus.jpg" alt="8 plus" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 8 plus</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 188 г</li>
+                            <li>Аккумулятор 1691 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.5 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$458</div>
+                            <div class="catalog-item__new-price">от $444</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.3s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/X.jpg" alt="X" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone X</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 174 г</li>
+                            <li>Аккумулятор 2691 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.8 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$549</div>
+                            <div class="catalog-item__new-price">от $540</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/Xr.jpg" alt="Xr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xr</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                3гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 194 г</li>
+                            <li>Аккумулятор 1942 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 6.1 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $560</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.2s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/Xs.jpg" alt="Xs" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xs</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 177 г</li>
+                            <li>Аккумулятор 2658 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 5.8 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$613</div>
+                            <div class="catalog-item__new-price">от $599</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.3s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/xs_max.jpg" alt="Xs max" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone Xs MAX</div>
+                            <div class="catalog-item__descr">
+                                64 / 128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 208 г</li>
+                            <li>Аккумулятор 3174 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 7 Мп</li>
+                            <li>Диагональ экрана – 6.5 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">$684</div>
+                            <div class="catalog-item__new-price">от $670</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+                <div class="catalog-item fadeInUp wow" data-wow-delay="0.1s">
+                    <div class="catalog-item__wrapper catalog-item__wrapper_active">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/heart_rate_monitor/11.png" alt="11" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">iPhone 11</div>
+                            <div class="catalog-item__descr">
+                                128 / 256 / 512гб <br>
+                                4гб ОЗУ
+                            </div>
+                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вес смартфона: 194 г</li>
+                            <li>Аккумулятор 3110 мАч</li>
+                            <li>Основная камера – 12+12 Мп</li>
+                            <li>Фронтальная – 12 Мп</li>
+                            <li>Диагональ экрана – 6.1 дюйма</li>
+                            <a href="#" class="catalog-item_back">НАЗАД</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price"></div>
+                            <div class="catalog-item__new-price">от $799</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="comments">
+        <div class="container">
+            <h2 class="title">отзывы клиентов</h2>
+            <div class="comments__comment fadeInUp wow">
+                <img src="img/reviews/1.png" alt="" class="comments__comment__img">
+                <div class="comments__comment__name">Ирина Шевченко</div>
+                <div class="comments__comment__subtitle">время использования: меньше месяца</div>
+                <div class="comments__comment__descr">
+                    Не знала, что себе купить - обратилась к ребятам из io-Market - подобрали телефон, который подошёл именно под мои цели и финансовые возможности.
+                    Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.<br>
+                    <br>
+                    <br>
+                    Спасибо, io-Market! 
+                </div>
+            </div>
+            <hr>
+            <div class="comments__comment fadeInUp wow"  data-wow-delay="0.5s">
+                <img src="img/reviews/2.png" alt="1" class="comments__comment__img">
+                <div class="comments__comment__name">Иван Семёнов</div>
+                <div class="comments__comment__subtitle">время использования: неделя</div>
+                <div class="comments__comment__descr">
+                    Давно хотел себе iPhone, но он стоит кучу денег, не хотелось тратить такую сумму ради телефона.
+                    Недавно наткнулся на io-Market, с ними быстро решил, какой телефон хочу и вот через неделю у меня уже оригинальный 
+                    смартфон, но гораздо дешевле!<br>
+                    <br>
+                    Наконец смог позволить себе Apple. Спасибо!!!
+                </div>
+            </div>
+            <hr>
+            <div class="comments__comment fadeInUp wow"  data-wow-delay="0.5s">
+                <img src="img/reviews/3.png" alt="2" class="comments__comment__img">
+                <div class="comments__comment__name">Ирина Дашкина</div>
+                <div class="comments__comment__subtitle">время использования: несколько месяцев</div>
+                <div class="comments__comment__descr">
+                    Долго не могла выбрать телефон, т.к. до этого всегда пользовался телефонами samsung, но хотелось попробовать что-то новое. От друзей услышала о io-Market и о ценах на iPhone.<br>
+                    <br>
+                    Позвонила, ребята поинтересовались моими целями, финансами и подобрали очень классный вариант со скидкой! Теперь хожу и наслаждаюсь телефоном! Без них никогда не купила бы себе iPhone!<br>
+                    <br>
+                    Спасибо!!!
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- <div class="footer__map"></div> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430307459399!2d37.644807316089135!3d55.76839799825631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1584184200089!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="footer__info">
+            <address class="footer__address">USA Kalifornia, ul street 18</address>
+            <a href="tel:84999228974" class="footer__phone">+7 (747) 148 98-71</a>
+            <div class="footer__social">
+                <a href="#" class="footer__social-item"><img src="icon/facebook.png" alt="facebook"></a>
+                <a href="#" class="footer__social-item"><img src="icon/instagram.png" alt="instagram"></a>
+                <a href="#" class="footer__social-item"><img src="icon/pinterest.png" alt="pinterest"></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы напишем вам в течении 2-х часов</div>
+            <form id="consultation_form" class="feed-form feed-form_mt25" action="#">
+                <input name="name" placeholder="Ваше имя " type="text">
+                <input name="phone" placeholder="Ваш телефон ">
+                <input name="email" placeholder="Ваш E-mail " type="email">
+
+                <button class="button button_modal button_form">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ:</div>
+            <div class="modal__descr"></div>
+            <form id="order_form" class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя " type="text">
+                <input name="phone" required placeholder="Ваш телефон ">
+                <input name="email" required placeholder="Ваш E-mail " type="email">
+
+                <button class="button button_modal button_form">купить</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами <br>в ближайшее время!</div>
+        </div>
+    </div>
+
+    <a href="#up" class="pageup">
+        <img src="icon/chevron-circle-up-solid.svg" alt="circle-up">
+    </a>
+    
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script> -->
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
